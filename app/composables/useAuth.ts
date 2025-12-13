@@ -1,7 +1,10 @@
 export function useAuth() {
     const user = useState<any>('user', () => null)
+
+// Generate Cookies
     const session = useCookie('session')
 
+// 
     function login(userData: any) {
         user.value = userData
         session.value = JSON.stringify(userData)
