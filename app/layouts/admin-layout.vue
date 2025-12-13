@@ -55,7 +55,7 @@
       </nav>
     </aside>
 
-    <!-- Main Content Area -->
+    <!-- Main Content -->
     <div class="flex flex-col flex-1 min-w-0">
       <!-- Enhanced Header -->
       <header class="bg-white/80 backdrop-blur-xl border-b border-slate-200/60 shadow-sm">
