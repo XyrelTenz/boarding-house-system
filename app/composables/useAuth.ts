@@ -7,6 +7,7 @@ export function useAuth() {
         session.value = JSON.stringify(userData)
     }
 
+// Remove Session and Token
     function logout() {
         user.value = null
         session.value = null
