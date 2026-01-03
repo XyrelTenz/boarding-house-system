@@ -3,6 +3,8 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
+
+//Connect
 const pool = new pg.Pool({
     user: process.env.PG_USER,
     password: process.env.PG_PASSWORD,
