@@ -13,6 +13,7 @@ const pool = new pg.Pool({
     database: process.env.PG_DATABASE
 })
 
+// Check Connection
 console.log('Attempting to connect with:', {
     user: process.env.PG_USER,
     database: process.env.PG_DATABASE,
