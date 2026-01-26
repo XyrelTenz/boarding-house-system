@@ -1,3 +1,4 @@
+// Cookies
 export default defineEventHandler((event) => {
     const cookie = getCookie(event, 'user')
     if (!cookie) {
